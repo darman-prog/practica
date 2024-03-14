@@ -1,0 +1,24 @@
+header{background-color:yellow;}
+
+div{
+    background-color: red;
+    color: white;
+    font-size: 25px;
+    font-family: cursive;
+    font-weight: 900;
+    width: 100px;
+    height: 100px;
+    border-radius: 5px;
+    border: 3px solid blue;
+    box-shadow: 0px 0px 5px orangered;
+    text-align: center;
+    padding-top: 33px;
+    box-sizing: border-box;
+    transition: all.3s;
+}
+div:hover{
+    background: green;
+}
+body  { background-image: url("https://filepicker-images.genius.com/8pkfat794k4"); background-repeat: no-repeat; background-attachment: fixed; background-size: cover;
+    
+}

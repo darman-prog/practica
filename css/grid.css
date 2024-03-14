@@ -1,0 +1,33 @@
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 35px 1fr 100px;
+    min-height: 100vh;
+    grid-template-areas: 
+    "header header header"
+    "main main aside "
+    "footer footer footer";
+
+}
+.containerheader{
+    background: red;
+    grid-area: header;
+}
+
+.containeraside{
+  background: blue;
+  grid-area: aside;
+}
+.containermain{
+ background: green;
+ grid-area: main;
+}
+.containerfooter{
+ background: yellow;
+ grid-area: footer;
+}
+img{
+  background: blueviolet;
+  margin-right: 5px;
+    
+}
