@@ -1,10 +1,16 @@
+*{
+  font-family:'Times New Roman', Times, serif;
+  padding: 0;
+  margin: 0;
+}
+
 .container{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 35px 1fr 100px;
+    grid-template-columns: repeat(3,.60fr);
+    grid-template-rows: 35px 2fr 10%;
     min-height: 100vh;
     grid-template-areas: 
-    "header header header"
+    "header header usuarios"
     "main main aside "
     "footer footer footer";
 
@@ -12,6 +18,9 @@
 .containerheader{
     background: red;
     grid-area: header;
+    display: flex;
+    align-items: center;
+    padding:  15px;
 }
 
 .containeraside{
@@ -27,7 +36,26 @@
  grid-area: footer;
 }
 img{
-  background: blueviolet;
-  margin-right: 5px;
-    
+  margin-left: 15px;
+}
+.entrada{
+   margin-left: 10px;
+   border-radius: 5%;
+   border-color: black;
+   
+   
+}
+sub{
+  font-size: 29px;
+  padding: 11px;
+  margin-inline-start: 20px;
+
+}
+.users{
+  background: yellowgreen;
+}
+.users sub{
+  font-size: 25px;
+  margin-left: 3px;
+  
 }
